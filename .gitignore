@@ -1,0 +1,5 @@
+.DS_Store
+[Bb]in
+[Dd]ebug
+*.suo
+Test_Results.xml

@@ -1,0 +1,23 @@
+
+<Addin namespace   = "MonoDevelop"
+       id          = "Manos.Addin"
+       name        = "Date Inserter"
+       author      = "Andrew Theken"
+       copyright   = "Public Domain"
+       url         = "http://www.manosdemono.com"
+       description = "Run and debug Manos Apps."
+       category    = "Source Editor Extensions"
+       version     = ".1">
+       <Dependencies>
+	       <Addin id="Ide" version="2.0"/>
+       </Dependencies>
+	   <Extension path = "/MonoDevelop/Ide/Commands/Edit">
+        <Command id = "MonoDevelop.Manos.Addin.ManosCommands.Run"
+                 _label = "Debug app under Manos..."
+                 _description = "Run current app under Manos."
+                 defaultHandler="MonoDevelop.Manos.Addin.Runner" />
+    	</Extension>
+	    <Extension path = "/MonoDevelop/Ide/MainMenu/Edit">
+    	    <CommandItem id="MonoDevelop.Manos.Addin.ManosCommands.Run" />
+    	</Extension>
+</Addin>

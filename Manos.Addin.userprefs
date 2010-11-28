@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Manos.Addin/MonoDevelop.Manos.Addin.addin.xml">
+    <Files>
+      <File FileName="Manos.Addin/Runner.cs" Line="23" Column="2" />
+      <File FileName="Manos.Addin/MonoDevelop.Manos.Addin.addin.xml" Line="10" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
