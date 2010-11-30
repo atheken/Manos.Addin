@@ -2,14 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Manos.Addin/ManosProjectExtensions.cs">
     <Files>
-      <File FileName="Manos.Addin/ManosProjectExtensions.cs" Line="27" Column="36" />
+      <File FileName="Manos.Addin/ManosProjectExtensions.cs" Line="29" Column="59" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State expanded="True" selected="True">
-          <Node name="Manos.Addin" expanded="True">
-            <Node name="References" expanded="True" />
-          </Node>
+        <State expanded="True">
+          <Node name="Manos.Addin" expanded="True" selected="True" />
           <Node name="testing" expanded="True">
             <Node name="References" expanded="True" />
           </Node>

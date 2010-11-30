@@ -3,18 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manos.Addin", "Manos.Addin\Manos.Addin.csproj", "{E69CFD54-86B5-4CCB-8584-6EC9AA38ECB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing", "testing\testing.csproj", "{307B6E5F-081E-4BC0-A1D5-EA0572BF177F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{307B6E5F-081E-4BC0-A1D5-EA0572BF177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{307B6E5F-081E-4BC0-A1D5-EA0572BF177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{307B6E5F-081E-4BC0-A1D5-EA0572BF177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{307B6E5F-081E-4BC0-A1D5-EA0572BF177F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E69CFD54-86B5-4CCB-8584-6EC9AA38ECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E69CFD54-86B5-4CCB-8584-6EC9AA38ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E69CFD54-86B5-4CCB-8584-6EC9AA38ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
