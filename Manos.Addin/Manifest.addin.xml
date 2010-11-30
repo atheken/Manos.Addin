@@ -1,0 +1,30 @@
+
+<Addin namespace   = "MonoDevelop"
+       id          = "Manos.Addin"
+       name        = "Date Inserter"
+       author      = "Andrew Theken"
+       copyright   = "Public Domain"
+       url         = "http://www.manosdemono.com"
+       description = "Run and debug Manos Apps."
+       category    = "Source Editor Extensions"
+       version     = ".1">
+       <Dependencies>
+	       <Addin id="Ide" version="2.4"/>
+	       <Addin id="Core" version="2.4"/>
+	       <Addin id="Debugger" version="2.4"/>
+	       <Addin id="Debugger.Soft" version="2.4"/>
+       </Dependencies>
+       
+	   	<Extension path="/MonoDevelop/Debugging/DebuggerEngines">
+		<DebuggerEngine
+			id="MonoDevelop.Debugger.Soft.Manos"
+			name="Manos Debugger"
+			features="Breakpoints, Pause, Stepping, DebugFile, Catchpoints"
+			type="Manos.Addin.ManosDebuggerEngine" />
+		</Extension>
+		
+		<Extension path = "/MonoDevelop/ProjectModel/ProjectServiceExtensions">
+			<Class class = "Manos.Addin.ManosProjectExtensions" 
+			id="ManosProjectExtensions" insertafter="FinalStep"/>
+		</Extension>
+</Addin>

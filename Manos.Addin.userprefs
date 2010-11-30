@@ -1,13 +1,36 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Manos.Addin/MonoDevelop.Manos.Addin.addin.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Manos.Addin/ManosProjectExtensions.cs">
     <Files>
-      <File FileName="Manos.Addin/Runner.cs" Line="23" Column="2" />
-      <File FileName="Manos.Addin/MonoDevelop.Manos.Addin.addin.xml" Line="10" Column="23" />
+      <File FileName="Manos.Addin/ManosProjectExtensions.cs" Line="27" Column="36" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="Manos.Addin" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+          <Node name="testing" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/atheken/Code/Manos.Addin/testing/Main.cs" line="8" />
+      <Breakpoint file="/Users/atheken/Code/Manos.Addin/testing/Fix.cs" line="10" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

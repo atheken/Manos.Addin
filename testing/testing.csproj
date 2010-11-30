@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E69CFD54-86B5-4CCB-8584-6EC9AA38ECB6}</ProjectGuid>
+    <ProjectGuid>{307B6E5F-081E-4BC0-A1D5-EA0572BF177F}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Manos.Addin</RootNamespace>
-    <AssemblyName>MonoDevelop.Manos.Addin</AssemblyName>
+    <RootNamespace>testing</RootNamespace>
+    <AssemblyName>testing</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -18,7 +18,7 @@
     <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
+    <Externalconsole>true</Externalconsole>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
@@ -26,20 +26,13 @@
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <ConsolePause>false</ConsolePause>
+    <Externalconsole>true</Externalconsole>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="MonoDevelop.Core, Version=2.4.0.0, Culture=neutral">
-      <Package>monodevelop</Package>
-    </Reference>
-    <Reference Include="MonoDevelop.Ide, Version=2.4.0.0, Culture=neutral">
-      <Package>monodevelop</Package>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Runner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
@@ -47,7 +40,4 @@
       <Properties InternalTargetFrameworkVersion="3.5" />
     </MonoDevelop>
   </ProjectExtensions>
-  <ItemGroup>
-    <EmbeddedResource Include="MonoDevelop.Manos.Addin.addin.xml" />
-  </ItemGroup>
 </Project>
